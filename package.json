@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-express-mysql",
+  "version": "1.0.0",
+  "description": "CPP Restful API with Node.js, Express and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "Sdraj",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1071.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "geoip-lite": "^1.4.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.34",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "qrcode": "^1.5.0",
+    "sequelize": "^6.16.1",
+    "socket.io": "^4.4.1"
+  }
+}
